@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage with JavaScript</title>
+    <link rel="stylesheet" href="style.css"> <!-- Optional: Link to external CSS for styling -->
+</head>
+<body>
+    <h1>Form and Password Visibility</h1>
+    
+    <!-- Form with basic validation -->
+    <form id="myForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required placeholder="Enter your username">
+        <div id="usernameMessage" class="message"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+        <div id="passwordMessage" class="message"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Password visibility toggle -->
+    <button id="togglePasswordBtn">Show/Hide Password</button>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
